@@ -1,10 +1,8 @@
 import os
 from gtts import gTTS
 from PyPDF2 import PdfReader
-from googletrans import Translator
 
 script_path = os.path.dirname(os.path.abspath(__file__))
-translator = Translator()
 
 raw_path = os.path.join(script_path, "rawMedia")
 processedMedia = os.path.join(script_path, "processedMedia")
