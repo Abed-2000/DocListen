@@ -2,7 +2,7 @@ import os
 
 script_path = os.path.dirname(os.path.abspath(__file__))
 
-relative_paths = ["processedMedia", "rawMedia"]
+relative_paths = ["processedMedia", "rawMedia", "temp"]
 
 for path in relative_paths:
     new_directory_path = os.path.join(script_path, path)

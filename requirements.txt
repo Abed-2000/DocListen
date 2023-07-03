@@ -1,2 +1,4 @@
 PyPDF2
 gTTs
+googletrans
+nltk

@@ -13,7 +13,7 @@ file2Convert = input("Enter the name of the file that you would like to convert 
 try:
     with open(os.path.join(raw_path, file2Convert)) as document:
         contents = document.read()
-        tts = gTTS(contents, lang = 'en')
+        tts = gTTS(contents, lang = 'bn')
         tts.save(os.path.join(processedMedia, (file2Convert + "_en.mp3")))
 
 except FileNotFoundError:
